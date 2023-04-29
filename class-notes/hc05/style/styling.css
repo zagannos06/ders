@@ -1,0 +1,72 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    font-family: "Quicksand", sans-serif;
+}
+ul.languages{
+    list-style-type: square;
+    list-style-type: disc;
+    list-style-type: circle;
+    list-style-type: armenian;
+    list-style-type: initial;
+    list-style-type: armenian;
+    
+
+    /* madde iminin yeri lilerin icinde mi yoksa disinda mi olsun onu beliirler  */
+    list-style-position: inside ;
+
+    padding: 20px;
+
+/* font awesome sitesinden aldik */
+    list-style-image: url("../img/house-medical-solid.svg");
+
+    
+}
+h2 i {
+    color: red
+}
+h2 {
+    color: violet;
+}
+/*? fa-solid adindaki class'a uygula */
+.fa-solid {
+    /** iconlarin rengini red yap */
+    color: green;
+    font-size: 50px;
+}
+/*!----- PSEUDO CLASSES ------- */
+ul.pseudo li {
+    background-color: darkgray;
+    font-weight: 700;
+  }
+  
+  ul.pseudo li:first-child {
+    color: blue;
+  }
+  
+  ul.pseudo li:last-child {
+    color: green;
+  }
+  
+  ul.pseudo li:nth-child(5) {
+    color: purple;
+    font-weight: 300;
+  }
+  
+  ul.pseudo li:nth-child(odd) {
+    color: hotpink;
+    background-color: lightgray;
+  }
+  
+  ul.pseudo li:nth-child(even) {
+    color: lightsalmon;
+  }
+  
+  /*? class'i x olan p elementinin icerinde .y class'inin içindeki z id'li elementi sec  */
+  /* p.x .y #z{
+  }
+  <p class="x">
+  <div class="y">
+    <div id="z"></div>
+    <div class="k"></div>  
+  </div>
+  </p> */
