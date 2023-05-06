@@ -1,0 +1,1 @@
+console.log("localde bulunan script calisti")
