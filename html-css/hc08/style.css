@@ -16,6 +16,7 @@
 .static {
     background-color: hotpink;
     position: static;  /*?default*/
+    ;
 }
 /*! Bir eleman position:relative yapilirsa o zaman olmasi gereken akış konumundan left,top,right ve bottom miktarlari kadar uzaklastirilabilir. */
 .relative-1 {
@@ -34,6 +35,7 @@
     background-color: rgba(76,0, 130, 0.492);
     position: relative;
     
+    
   }
   .absolute{
     position: absolute;
@@ -42,5 +44,28 @@
     height: 3rem;
   }
  .top-left{
-    
+    top: -0rem;
  }
+ .bottom-right{
+  bottom:0;
+  right: 0;
+ }
+
+ .bottom-left{
+  bottom: 0;
+ }
+
+ .top-right{
+  right: 0rem;
+  top: 0;
+ }
+
+ .center{
+  top: 3.5rem;
+  left: 3.5rem;
+  
+ }
+
+.center{
+  justify-content: flex ;
+}
