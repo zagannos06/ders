@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --mywhite: #FFFAFA
+    --black: #0F0F0F
+    --green: #32CD32
+}
+
+
+.lorem {
+    color: var(--mywhite)  ;
+}
+
+

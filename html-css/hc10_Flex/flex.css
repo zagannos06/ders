@@ -1,0 +1,70 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+ul.nav {
+    background-color: cadetblue;
+    padding: 1rem;
+    list-style-type: none;
+    height:30vh ;
+
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    /* ?1. parametre satirlar arasi 2. parametresutunlar arasi uzaklik */
+    gap: 1rem ;
+    flex-wrap: wrap;
+    justify-content:center;
+    /* align-items: center; */
+    align-content: flex-start;
+
+   
+}
+ul.nav li{
+    background-color: chocolate;
+    width: 7rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    
+}
+.container {
+    margin-top: 2rem;
+    background-color: cornflowerblue;
+    padding: 1rem;
+
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.container * {
+    background-color: crimson;
+}
+.container header{
+flex-basis: 100%;
+}
+
+.container footer{
+flex-basis: 100%;
+}
+
+
+.container main{
+flex-grow: 3;
+}
+
+.container .left{
+flex-grow: 1;
+}
+
+.container .right {
+flex-grow: 2;
+}
